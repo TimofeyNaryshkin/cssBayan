@@ -127,3 +127,44 @@ input:checked + label > .accordion_item > div > h2 {
 input {
   display: none;
 }
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  .accordion_item {
+    height: 40px;
+  }
+  .accordion_item:hover {
+    height: 350px;
+  }
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  .accordion_item {
+    height: 35px;
+  }
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+  input:checked + label > .accordion_item {
+    height: 250px;
+  }
+  .accordion__icon {
+    display: block;
+  }
+}
