@@ -134,10 +134,10 @@ input {
 
 @media (max-width: 85rem) {
   h1 {
-    font-size: 4.2rem;
+    font-size: 4rem;
   }
   h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .accordion_item {
     height: 4rem;
@@ -153,35 +153,35 @@ input {
     transform: translate(-0.5rem) rotate(-45deg);
   }
   input:checked + label > .accordion_item {
-    height: 35rem;
+    height: 32rem;
   }
   @media (hover:hover) {
     .accordion_item:hover {
-      height: 35rem;
+      height: 32rem;
     }
   }
 }
 
 @media (max-width: 43rem) {
   h1 {
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.5em;
   }
   .accordion_item {
-    height: 3.5rem;
+    height: 3rem;
   }
   .img {
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
   }
   input:checked + label > .accordion_item {
-    height: 25rem;
+    height: 18rem;
   }
   @media (hover:hover) {
     .accordion_item:hover {
-      height: 25rem;
+      height: 18rem;
     }
   }
 }
