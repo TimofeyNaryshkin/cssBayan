@@ -1,5 +1,4 @@
 html {
-  font-size: 10px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -86,7 +85,7 @@ h2 {
   border-right: 0.3rem solid black;
   width: 1.2rem;
   height: 1.2rem;
-  transform: translate(-5px) rotate(135deg);
+  transform: translate(-0.5rem) rotate(135deg);
   display: none;
 }
 
@@ -129,7 +128,7 @@ input {
     height: 40rem;
   }
   .accordion_item:hover .accordion__icon {
-    transform: translate(-5px) rotate(-45deg);
+    transform: translate(-0.5rem) rotate(-45deg);
   }
 }
 
@@ -151,7 +150,7 @@ input {
     display: block;
   }
   input:checked + label > .accordion_item > * > .accordion__icon {
-    transform: translate(-5px) rotate(-45deg);
+    transform: translate(-0.5rem) rotate(-45deg);
   }
   input:checked + label > .accordion_item {
     height: 35rem;
