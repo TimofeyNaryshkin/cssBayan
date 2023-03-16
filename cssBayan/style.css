@@ -52,6 +52,7 @@ h2 {
 }
 
 .img {
+  transform: scale(0.5);
   height: 35rem;
   width: 35rem;
   background-size: contain;
@@ -103,6 +104,10 @@ input:checked + label > .accordion_item > div > h2 {
   color: black;
 }
 
+input:checked + label > .accordion_item > .img {
+  transform: scale(1);
+}
+
 input {
   display: none;
 }
@@ -110,6 +115,9 @@ input {
 @media (hover:hover) {
   .accordion:hover {
     cursor: pointer;
+  }
+  .accordion_item:hover > .img {
+    transform: scale(1);
   }
   .accordion:hover h2 {
     color: black;
